@@ -26,20 +26,19 @@ class CityBuildingGame:
         exit()
 
     def run(self):
-        while True:
-            self.display_main_menu()
-            choice = input("Enter your choice (1-4): ")
+        self.display_main_menu()
+        choice = input("Enter your choice (1-4): ")
 
-            if choice == '1':
-                start_new_game()  # Call the function from Newgame.py
-            elif choice == '2':
-                self.load_saved_game()
-            elif choice == '3':
-                self.display_high_scores()
-            elif choice == '4':
-                self.exit_game()
-            else:
-                print("Invalid choice. Please enter a number from 1 to 4.")
+        if choice == '1':
+            start_new_game()  # Call the function from Newgame.py
+        elif choice == '2':
+            self.load_saved_game()
+        elif choice == '3':
+            self.display_high_scores()
+        elif choice == '4':
+            self.exit_game()
+        else:
+            print("Invalid choice. Please enter a number from 1 to 4.")
 
 # Example usage
 if __name__ == "__main__":
