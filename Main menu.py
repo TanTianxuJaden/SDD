@@ -2,7 +2,7 @@ from Newgame import start_new_game
 
 class CityBuildingGame:
     def __init__(self):
-        self.high_scores = []  # Placeholder for high scores
+        self.high_scores = []  # Placeholder for high scores1
         self.current_game_state = None  # Placeholder for the current game state
 
     def display_main_menu(self):
