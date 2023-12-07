@@ -15,4 +15,4 @@ def start_new_game():
     # Add your additional game initialization logic here
 
 # Test the function
-start_new_game()
+
